@@ -6,6 +6,8 @@ RUN apt-get update              \
     && apt-get -y -q upgrade    \
     && apt-get -y -q install    \
         python                  \
+        qemu                    \
+        gdb                     \
         bc                      \
         nano                    \
         wget                    \
